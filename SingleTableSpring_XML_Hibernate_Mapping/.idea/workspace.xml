@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f5608191-45ec-4195-b60a-5adf71a32b44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ashish/hibernate/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ashish/hibernate/ManageEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ashish/hibernate/Shift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ashish/hibernate/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/employee.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/shift.hbm.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1hCHk1uPko6gaIusSdhrozoO1Uc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Hibernate_XML_Mapping_OneToOne" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ashish.hibernate.Test" />
+      <module name="SingleTableSpring_XML_Hibernate_Mapping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ashish.hibernate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5608191-45ec-4195-b60a-5adf71a32b44" name="Default Changelist" comment="" />
+      <created>1599508292377</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599508292377</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1245" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1599511988183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1245" y="207" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599511988183" />
+    <state x="1220" y="278" key="FileChooserDialogImpl" timestamp="1599508538510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599508538510" />
+    <state width="1323" height="280" key="GridCell.Tab.0.bottom" timestamp="1599516188963">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="280" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1599516188963" />
+    <state width="914" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599511993525" />
+    <state width="1323" height="280" key="GridCell.Tab.0.center" timestamp="1599516188963">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="280" key="GridCell.Tab.0.center/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1599516188963" />
+    <state width="914" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599511993524" />
+    <state width="1323" height="280" key="GridCell.Tab.0.left" timestamp="1599516188962">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="280" key="GridCell.Tab.0.left/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1599516188962" />
+    <state width="914" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599511993524" />
+    <state width="1323" height="280" key="GridCell.Tab.0.right" timestamp="1599516188963">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="280" key="GridCell.Tab.0.right/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1599516188963" />
+    <state width="914" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599511993524" />
+    <state x="676" y="0" width="697" height="735" key="dock-window-1" timestamp="1599516086467">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="676" y="0" width="697" height="735" key="dock-window-1/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1599516086467" />
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1599510891238" />
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1599511827497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599511827497" />
+  </component>
+</project>

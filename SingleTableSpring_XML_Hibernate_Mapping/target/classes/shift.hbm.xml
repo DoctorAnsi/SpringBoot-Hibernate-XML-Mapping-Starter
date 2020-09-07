@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name = "com.ashish.hibernate.Shift" table ="SHIFT">
+        <id  name="shiftId" column = "SHIFT_ID">
+            <generator class="increment"></generator>
+        </id>
+        <property name = "shiftName" column = "SHIFT_NAME"></property>
+        <property name = "shiftAttr1" column = "SHIFT_ATTR_1"></property>
+        <property name = "shiftAttr2" column = "SHIFT_ATTR_2"></property>
+    </class>
+</hibernate-mapping>
