@@ -10,3 +10,10 @@ Primary Changes Required: Database Name ( In my case, it's Database1.table_name 
 ``` 
 To start the application, run Test.java 
 ```
+
+### Mapping Files Needed ( One To One Mapping )
+- Employee
+- Address
+- employee.hbm.xml
+- address.hbm.xml
+- Test
