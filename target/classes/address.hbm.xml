@@ -1,0 +1,16 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name = "com.ashish.hibernate.Address" table ="addrtable">
+
+    <id  name="addId" column = "eaddressid">
+        <generator class="increment"></generator>
+    </id>
+    <property name="city" column="ecity"> </property>
+    <property name="state" column="estate"> </property>
+    <property name="country" column="ecountry"> </property>
+
+    </class>
+</hibernate-mapping>
