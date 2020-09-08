@@ -8,7 +8,7 @@
         <id  name="shiftId" column = "SHIFT_ID">
             <generator class="increment"></generator>
         </id>
-        <property name = "shiftNa  me" column = "SHIFT_NAME"></property>
+        <property name = "shiftName" column = "SHIFT_NAME"></property>
         <property name = "shiftAttr1" column = "SHIFT_ATTR_1"></property>
         <property name = "shiftAttr2" column = "SHIFT_ATTR_2"></property>
     </class>

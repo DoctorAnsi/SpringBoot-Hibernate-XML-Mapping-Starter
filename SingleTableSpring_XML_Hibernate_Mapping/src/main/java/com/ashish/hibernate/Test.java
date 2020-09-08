@@ -30,8 +30,10 @@ public class Test {
         }
         Test TEST= new Test();
         Integer shiftId1 = TEST.addShift("shift1", "attr1", 100);
-        Integer shiftId2 = TEST.addShift("shift1", "attr1", 100);
-        Integer shiftId3 = TEST.addShift("shift1", "attr1", 100);
+        Integer shiftId2 = TEST.addShift("Ashish", "xcvbxccb xvbxvxb", 100);
+        Integer shiftId3 = TEST.addShift("Ashish", "2234243", 100);
+        Integer shiftId4 = TEST.addShift("shift1", "rtwrw", 100);
+        Integer shiftId5 = TEST.addShift("shift1", "afadsafasd", 100);
         System.out.println("Shifts added");
         TEST.listShifts();
         System.out.println("Listed Shifts");
@@ -40,6 +42,8 @@ public class Test {
         TEST.listShifts();
         System.out.println("Listed Shifts");
         System.out.println("Shift object created successfully");
+
+        TEST.getAllEmployeesWithName("Ashish");
     }
 
     /**
@@ -153,6 +157,34 @@ public class Test {
         }
     }
 
+    public void getAllEmployeesWithName(String name)
+    {
+        Session session = factory.openSession();
+        Transaction tx = null;
+        try{
+            tx = session.beginTransaction();
+            List shifts = session.createQuery("From Shift where SHIFT_NAME="+"\'"+name+"\'").list();
+            for(Iterator iterator = shifts.iterator(); iterator.hasNext();)
+            {
+                Shift shift = (Shift) iterator.next();
+                System.out.println("SHIFT NAME: "+shift.getShiftName());
+                System.out.println("SHIFT ATTR 1: "+shift.getShiftAttr1());
+                System.out.println("SHIFT ATTR 2: "+shift.getShiftAttr2());
+            }
+            tx.commit();
+        }
+        catch(HibernateException e)
+        {
+            if(tx!=null)
+            {
+                tx.rollback();
+            }
+            e.printStackTrace();
+        } finally{
+            session.close();
+        }
+
+    }
     /* Method to DELETE an employee from the records */
     public void deleteEmployee(Integer EmployeeID){
         Session session = factory.openSession();
