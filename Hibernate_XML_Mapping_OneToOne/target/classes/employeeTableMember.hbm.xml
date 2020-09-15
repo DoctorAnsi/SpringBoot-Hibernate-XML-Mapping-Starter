@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name = "com.ashish.hibernate.Employee" table ="emptable">
+        <id  name="empId" column = "employee_id">
+            <generator class="increment"></generator>
+        </id>
+
+
+<!--        int employeeId;-->
+<!--        String firstName;-->
+<!--        String lastName;-->
+<!--        int age;-->
+<!--        String departmentName;-->
+<!--        int employeeTableCol;-->
+
+        <property name = "firstName" column = "first_name"></property>
+        <property name = "lastName" column = "last_name"></property>
+        <property name = "departmentName" column = "department_name"></property>
+        <property name = "employeeTableCol" column = "employee_tablecol"></property>
+        <property name = "age" column = "age"></property>
+    </class>
+
+</hibernate-mapping>

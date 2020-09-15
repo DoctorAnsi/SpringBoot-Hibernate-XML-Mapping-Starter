@@ -15,5 +15,6 @@
 
         <mapping resource="employee.hbm.xml"></mapping>
         <mapping resource="address.hbm.xml"></mapping>
+        <mapping resource="employeeTableMember.hbm.xml"></mapping>
     </session-factory>
 </hibernate-configuration>
